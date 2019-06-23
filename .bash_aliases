@@ -1,6 +1,6 @@
 # ~/.bash_aliases
 #alias see_firefox_extensions="grep -oP '},"name":"\K[^"]+' ~/.mozilla/firefox/*/addons.json"
-#sudo sed -i 's/"nom de code de la version actuelle"/"nom de code de la version en développement"/g' /etc/apt/sources.list
+#sudo sed -i 's/utopic/trusty/g' /etc/apt/sources.list
 alias ls='ls --color=auto'
 alias see_actives_sources="find /etc/apt -name '*.list' -print -exec bash -c 'grep '^deb' {}' \;"
 alias simple_update='sudo apt update && sudo apt dist-upgrade -y'
