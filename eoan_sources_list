@@ -1,5 +1,7 @@
+##Official repos##
 deb http://archive.ubuntu.com/ubuntu/ eoan main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu/ eoan-updates main restricted universe multiverse
 deb http://archive.ubuntu.com/ubuntu/ eoan-backports main restricted universe multiverse
 deb http://security.ubuntu.com/ubuntu eoan-security main restricted universe multiverse
+##Partner repos##
 deb http://archive.canonical.com/ubuntu eoan partner
