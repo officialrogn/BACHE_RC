@@ -9,3 +9,5 @@ alias set_hosts='echo "Script is removing $(grep '127.0.0.1' /etc/hosts | wc -l)
 alias reset_hosts='echo "Script is removing $(grep '127.0.0.1' /etc/hosts | wc -l) entries" ; sudo rm /etc/hosts && sudo cp /etc/hosts.orig /etc/hosts; echo "hosts has now $(grep '127.0.0.1' /etc/hosts | wc -l) entries"; echo "End of switch"'
 alias purge_conf_files='[[ $(dpkg -l | grep ^rc) ]] && sudo dpkg -P $(dpkg -l | grep ^rc | tr -s " " | cut -d " " -f 2)'
 alias transform_ubpackages_to_auto='[[ $(apt-mark showmanual | egrep 'linux-.*[0-9]' | grep -v "hwe") ]] && sudo apt-mark auto $(apt-mark showmanual | egrep linux-.*[0-9] | grep -v "hwe")'
+alias firefox='./Téléchargements/Firefox/firefox/firefox'
+alias youtube-dl='./Téléchargements/rtg/youtube-dl'
